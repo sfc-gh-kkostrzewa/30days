@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 
-st.write("test")
+st.write("test2")
 def update_params():
     st.experimental_set_query_params(challenge=st.session_state.day)
 
